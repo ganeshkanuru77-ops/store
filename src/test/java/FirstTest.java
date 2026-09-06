@@ -9,6 +9,7 @@ WebDriver driver;
       driver.get("https://www.flipkart.com/");
       driver.manage().window().maximize();
       System.out.print("okay");
+      System.out.print("double okay");
       driver.quit();
 
     }
