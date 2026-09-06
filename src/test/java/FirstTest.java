@@ -10,6 +10,7 @@ WebDriver driver;
       driver.manage().window().maximize();
       System.out.print("okay");
       System.out.print("double okay");
+        System.out.print("feature changes for pr");
       driver.quit();
 
     }
