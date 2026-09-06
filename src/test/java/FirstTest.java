@@ -8,6 +8,7 @@ WebDriver driver;
         driver = new ChromeDriver();
       driver.get("https://www.flipkart.com/");
       driver.manage().window().maximize();
+      System.out.print("okay");
       driver.quit();
 
     }
